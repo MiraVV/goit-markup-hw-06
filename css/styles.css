@@ -247,7 +247,6 @@ img {
 
   min-width: 528px;
   min-height: 581px;
-  padding: 8px;
   background-color: var(--btn-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -271,6 +270,92 @@ img {
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal-form {
+  border: 1px solid tomato;
+  width: 448px;
+  margin: 40px;
+}
+.modat-title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.label-title {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form-field input,
+.comment {
+  margin: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px 12px;
+}
+.comment {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+textarea {
+  resize: none;
+}
+.policy {
+  width: 100%;
+  padding: 12px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.form-field-policy {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.submit-form {
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  /* font-family: inherit; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  padding: 10px 55px;
+
+  color: var(--btn-color);
+
+  background-color: var(--first-btn-color);
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
+  border: none;
 }
 
 /*--------------------- title--------------------------------- */
@@ -671,4 +756,8 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+}
+.footer-form {
+  margin-top: 12px;
+  margin-left: 93px;
 }
