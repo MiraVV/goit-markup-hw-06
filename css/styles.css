@@ -329,9 +329,12 @@ img {
   padding-bottom: 12px;
   padding-right: 12px;
   padding-left: 42px;
+  height: 40px;
 }
 .comment {
   padding: 12px 16px;
+  height: 120px;
+  overflow: hidden;
 }
 .comment::placeholder {
   font-weight: normal;
@@ -391,8 +394,6 @@ img {
 .check-icon {
   display: inline-block;
   margin-right: 8px;
-  /* width: 16px;
-  height: 15px; */
   border: 2px solid #212121;
   border-radius: 2px;
 
@@ -850,6 +851,7 @@ img {
   height: 50px;
   margin-right: 12px;
   padding: 16px 15px;
+  color: var(--btn-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
